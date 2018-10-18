@@ -4,101 +4,112 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>player</title>
+		<title>profile</title>
 		<!-- link to css -->
 		<!-- link to js -->
 	</head>
 
 	<body>
+		
+		<header>
+			
+		</header>
 
 		<main>
 
-			<a href="pages/profile">
+			<div>
+
 				<div>
 
-					<div>
+					<nav>
+						<ul>
+							<li><h3>Time Listened</h3></li>
+							<li><h3>Songs Played</h3></li>
+							<li><h3>Songs Skipped</h3></li>
+							<li><h3>Hours Idle</h3></li>
+						</ul>
+					</nav>
 
-						<div>
-							<h3>username</h3>
-							<!--graph-->
-						</div>
+					<div class="user-statistics">
+						<h3>username</h3>
+						<canvas></canvas>
+					</div>
 
-						<div>
-							<h3>username2</h3>
-							<!--graph-->
-						</div>
+					<div class="user-statistics">
+						<h3>username2</h3>
+						<canvas></canvas>
+					</div>
 
-						<div>
-							<h3>username3</h3>
-							<!--graph-->
-						</div>
-
-						<h2>Time Watched This Week</h2>
-
+					<div class="user-statistics">
+						<h3>username3</h3>
+						<canvas></canvas>
 					</div>
 
 				</div>
 
-			</a>
+			</div>
 
-			<a href="pages/popular.html">
-				<aside>
+			<div id="popular">
+					
+				<div class="popular-section">
+					<img src="images/test_album.jpg">
 					<div>
-						
-						<div style="display: inline-block; height: 100">
-							<img src="images/test_album.jpg" height="100">
-							<div>
-								<h5>Man In The Mirror</h5>
-								<h6>Micheale Jackson</h6>
-								<p>popular in your region</p>
-							</div>
-						</div>
-
-						<div style="display: inline-block;">
-							<img src="images/test_album.jpg">
-							<div>
-								<h5>Pompeii</h5>
-								<h6>Basatille</h6>
-								<p>friends recently listened</p>
-							</div>
-						</div>
-
-						<div style="display: inline-block;">
-							<img src="images/test_album.jpg">
-							<div>
-								<h5>Happier</h5>
-								<h6>Marshmello</h6>
-								<p>newly released</p>
-							</div>
-						</div>
-
+						<h4>Man In The Mirror</h4>
+						<h5>Micheale Jackson</h5>
+						<h6>popular in your region</h6>
 					</div>
-				</aside>
-			</a>
+				</div>
+
+				<div class="popular-section">
+					<img src="images/test_album.jpg">
+					<div>
+						<h4>Pompeii</h4>
+						<h5>Basatille</h5>
+						<h6>friends recently listened</h6>
+					</div>
+				</div>
+
+				<div class="popular-section">
+					<img src="images/test_album.jpg">
+					<div>
+						<h4>Happier</h4>
+						<h5>Marshmello</h5>
+						<h6>newly released</h6>
+					</div>
+				</div>
+
+			</div>
 			
 		</main>
 
-		<div>
+		<div id="song-player">
 
-			<!-- add current song position slider -->
-			<a href="pages/player">
-				<div>				
+			<div id="song-slider">
+				<h6>1:24</h6> <!-- time palyed of current song -->
+				<!-- add dynamic bar showing song completion -->
+				<h6>3:32</h6> <!-- time left of current song -->
+			</div>
+
+			<div id="song-player-main">
+
+				<div id="current-song">				
 					<img src="images/test_album.jpg">
 					<h5>This Will Be (An Everlasting Love)</h5>
 					<h6>Natalie Cole</h6>
 				</div>
-			</a>
 
-			<div>
-				<img src="images/last.svg">
-				<img src="images/play.svg">
-				<img src="images/next.svg">
-			</div>
+				<div id="song-commands">
+					<img src="images/last.svg">
+					<img src="images/play.svg">
+					<img src="images/next.svg">
+				</div>
 
-			<div>
-				<img src="images/settings.svg">
-				<img src="images/volume.svg"> 
-				<img src="images/test_profile.png">
+				<div id="song-player-options">
+					<img src="images/settings.svg">
+					<img src="images/volume.svg"> 
+					<img src="images/test_profile.png">
+				</div>
+				
 			</div>
 			
 		</div>
