@@ -1,0 +1,70 @@
+body {
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: grey;
+}
+
+#statistic-selector {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background-color: blue;
+}
+
+#popular {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.song-full {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0px 20px 0px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.song-full > img{
+	padding-right: 20px
+}
+
+.song-full > div > div:nth-child(1) {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.song-full > div > div:nth-child(2) {
+	font-size: 1.5em;
+}
+
+.song-full > div > div:nth-child(3) {
+	font-style: italic;
+}
+
+#song-player-main {
+	flex-basis: 20%px;
+	display: flex;
+	background-color: blue;
+}
+
+#current-song {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 20%;
+}
+
+#song-commands {
+	display: flex;
+	flex-basis: 40%
+}
+
+#song-player-options {
+	display: flex;
+	flex-basis: 40%
+}

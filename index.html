@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>active listening</title>
-		<!-- link to css -->
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
 		<!-- link to js -->
 	</head>
 
@@ -13,72 +13,68 @@
 
 		<main>
 
-			<a href="pages/profile.html">
-				<div id="profile">
+			<div id="profile">
 
-					<nav>
-						<ul>
-							<li><h1>Time Listened</h1></li>
-							<li><h1>Songs Played</h1></li>
-							<li><h1>Songs Skipped</h1></li>
-							<li><h1>Hours Idle</h1></li>
-						</ul>
-					</nav>
+				<nav>
+					<ul id="statistic-selector">
+						<li><h1>Time Listened</h1></li>
+						<li><h1>Songs Played</h1></li>
+						<li><h1>Songs Skipped</h1></li>
+						<li><h1>Hours Idle</h1></li>
+					</ul>
+				</nav>
 
+				<div>
+
+					<div class="user-statistics">
+						<h2 class="username">I_like_dogs</h2> <!--dummy username-->
+						<canvas></canvas>
+					</div>
+
+					<div class="user-statistics">
+						<h2 class="username">tomatoehead665</h2> <!--dummy username-->
+						<canvas></canvas>
+					</div>
+
+					<div class="user-statistics">
+						<h2 class="username">Xx_cheese_xX</h2><!--dummy username-->
+						<canvas></canvas>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="popular">
+					
+				<div class="song-full"> <!--dummy song-->
+					<img class="album-cover" src="images/test/album_bad.png" height="100" width="100">
 					<div>
-
-						<div class="user-statistics">
-							<h2 class="username">I_like_dogs</h2> <!--dummy username-->
-							<canvas></canvas>
-						</div>
-
-						<div class="user-statistics">
-							<h2 class="username">tomatoehead665</h2> <!--dummy username-->
-							<canvas></canvas>
-						</div>
-
-						<div class="user-statistics">
-							<p class="username">Xx_cheese_xX</h2><!--dummy username-->
-							<canvas></canvas>
-						</div>
-
+						<div>Man In The Mirror</div>
+						<div>Michael Jackson</div>
+						<div>popular in your region</div>
 					</div>
-
 				</div>
-			</a>
 
-			<a href="pages/popular.html">
-				<div id="popular">
-						
-					<div class="popular-section"> <!--dummy song-->
-						<img class="album-cover" src="images/test/album_bad.png" height="100" width="100">
-						<div>
-							<div class="song-title">Man In The Mirror</div>
-							<div class="song-artist">Michael Jackson</div>
-							<div class="popular-reason">popular in your region</div>
-						</div>
+				<div class="song-full"> <!--dummy song-->
+					<img class="album-cover" src="images/test/album_kamakaze.jpg" height="100" width="100">
+					<div>
+						<div>Lucky You</div>
+						<div>Eminem</div>
+						<div>new release</div>
 					</div>
-
-					<div class="popular-section"> <!--dummy song-->
-						<img class="album-cover" src="images/test/album_kamakaze.jpg" height="100" width="100">
-						<div>
-							<div class="song-title">Lucky You</div>
-							<div class="song-artist">Eminem</div>
-							<div class="popular-reason">new release</div>
-						</div>
-					</div>
-
-					<div class="popular-section"> <!--dummy song-->
-						<img class="album-cover" src="images/test/album_iWillSurvive.jpg" height="100" width="100">
-						<div>
-							<div class="song-title">I Will Survive</div>
-							<div class="song-artist">Glooria Gaynor</div>
-							<div class="popular-reason">popular among friends</div>
-						</div>
-					</div>
-
 				</div>
-			</a>
+
+				<div class="song-full"> <!--dummy song-->
+					<img src="images/test/album_iWillSurvive.jpg" height="100" width="100">
+					<div>
+						<div>I Will Survive</div>
+						<div>Glooria Gaynor</div>
+						<div>popular among friends</div>
+					</div>
+				</div>
+
+			</div>
 			
 		</main>
 
@@ -92,16 +88,14 @@
 
 			<div id="song-player-main">
 
-				<a href="pages/player.html">
-					<div id="current-song">				
-						<img class="album-cover" src="images/test/album_inseperable.jpg" height="200", width="200">
-						<div>
-							<div class="song-title">Man In The Mirror</div>
-							<div class="song-artist">Natlie Cole</div>
-							<div class="song-album">Inseperable</div>
-						</div>
+				<div id="current-song">				
+					<img class="album-cover" src="images/test/album_inseperable.jpg" height="200", width="200">
+					<div>
+						<div class="song-title">Man In The Mirror</div>
+						<div class="song-artist">Natlie Cole</div>
+						<div class="song-album">Inseperable</div>
 					</div>
-				</a>
+				</div>
 
 				<div id="song-commands">
 					<img src="images/last.svg">
