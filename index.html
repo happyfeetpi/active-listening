@@ -17,62 +17,57 @@
 
 				<nav>
 					<ul id="statistic-selector">
-						<li><h1>Time Listened</h1></li>
-						<li><h1>Songs Played</h1></li>
-						<li><h1>Songs Skipped</h1></li>
-						<li><h1>Hours Idle</h1></li>
+						<li>Time Listened</li>
+						<li>Songs Played</li>
+						<li>Songs Skipped</li>
+						<li>Hours Idle</li>
 					</ul>
 				</nav>
-
-				<div>
-
-					<div class="user-statistics">
-						<h2 class="username">I_like_dogs</h2> <!--dummy username-->
-						<canvas></canvas>
-					</div>
-
-					<div class="user-statistics">
-						<h2 class="username">tomatoehead665</h2> <!--dummy username-->
-						<canvas></canvas>
-					</div>
-
-					<div class="user-statistics">
-						<h2 class="username">Xx_cheese_xX</h2><!--dummy username-->
-						<canvas></canvas>
-					</div>
-
-				</div>
-
 			</div>
 
 			<div id="popular">
-					
-				<div class="song-full"> <!--dummy song-->
-					<img class="album-cover" src="images/test/album_bad.png" height="100" width="100">
-					<div>
-						<div>Man In The Mirror</div>
-						<div>Michael Jackson</div>
-						<div>popular in your region</div>
-					</div>
-				</div>
 
-				<div class="song-full"> <!--dummy song-->
-					<img class="album-cover" src="images/test/album_kamakaze.jpg" height="100" width="100">
-					<div>
-						<div>Lucky You</div>
-						<div>Eminem</div>
-						<div>new release</div>
+				<h1>Recommended</h1>
+				
+				<div>	
+				
+					<div class="song-full"> <!--dummy song-->
+						<img class="album-cover" src="images/test/album_bad.png">
+						<div>
+							<div>Man In The Mirror</div>
+							<div>Michael Jackson</div>
+							<div>popular in your region</div>
+						</div>
 					</div>
-				</div>
 
-				<div class="song-full"> <!--dummy song-->
-					<img src="images/test/album_iWillSurvive.jpg" height="100" width="100">
-					<div>
-						<div>I Will Survive</div>
-						<div>Glooria Gaynor</div>
-						<div>popular among friends</div>
+					<div class="song-full"> <!--dummy song-->
+						<img class="album-cover" src="images/test/album_kamakaze.jpg">
+						<div>
+							<div>Lucky You</div>
+							<div>Eminem</div>
+							<div>new release</div>
+						</div>
 					</div>
-				</div>
+
+					<div class="song-full"> <!--dummy song-->
+						<img src="images/test/album_iWillSurvive.jpg">
+						<div>
+							<div>I Will Survive</div>
+							<div>Glooria Gaynor</div>
+							<div>popular among friends</div>
+						</div>
+					</div>
+
+					<div class="song-full">	<!--dummy song-->		
+						<img class="album-cover" src="images/test/album_inseperable.jpg">
+						<div>
+							<div class="song-title">Man In The Mirror</div>
+							<div class="song-artist">Natlie Cole</div>
+							<div class="song-album">Inseperable</div>
+						</div>
+					</div>
+
+				<div>
 
 			</div>
 			
@@ -80,16 +75,12 @@
 
 		<div id="song-player">
 
-			<div id="song-slider">
-				<div class="time-code">1:24</div> <!-- time palyed of current song -->
-				<!-- add dynamic bar showing song completion -->
-				<div class="time-code">3:32</div> <!-- time left of current song -->
-			</div>
+			<div id="song-slider"></div>
 
 			<div id="song-player-main">
 
-				<div id="current-song">				
-					<img class="album-cover" src="images/test/album_inseperable.jpg" height="200", width="200">
+				<div class="song-full">				
+					<img class="album-cover" src="images/test/album_inseperable.jpg">
 					<div>
 						<div class="song-title">Man In The Mirror</div>
 						<div class="song-artist">Natlie Cole</div>
@@ -106,8 +97,6 @@
 				<div id="song-player-options">
 					<img src="images/settings.svg">
 					<img src="images/volume.svg"> 
-					<img src="images/test/profile.png">
-					<img src="images/logo.svg">
 				</div>
 				
 			</div>
