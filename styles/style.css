@@ -2,7 +2,8 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Montserrat'; font-size: 22px;
+	color: white;
 }
 
 main {
@@ -11,7 +12,7 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: #003366;
+	background-color: black;
 }
 
 #statistic-selector {
@@ -32,7 +33,7 @@ main {
 
 #statistic-selector > li:hover {
     display: inline;
-    background-color: #909090;
+    background-image: linear-gradient(to right, rgb(0,188,212), black);
 }
 
 h1 {
@@ -41,8 +42,10 @@ h1 {
 }
 
 #popular {
-	background-color: #909090;
+	background-image: linear-gradient(to top, rgb(0,188,212), black);
 	height: 100%;
+
+	
 }
 
 #popular > div:last-child {
@@ -58,8 +61,6 @@ h1 {
 .song-full {
 	display: flex;
 	flex-direction: row;
-	text-overflow: ellipsis;
-	white-space: nowrap;
 }
 
 #popular > div > div.song-full {
@@ -91,7 +92,7 @@ h1 {
 	flex-basis: 20%;
 	display: flex;
 	justify-content: space-between;
-	background-color;
+	background-image: linear-gradient(rgb(0,188,212),black);
 }
 #song-player {
 	width: 100%;
