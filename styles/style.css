@@ -58,6 +58,8 @@ h1 {
 .song-full {
 	display: flex;
 	flex-direction: row;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 #popular > div > div.song-full {
