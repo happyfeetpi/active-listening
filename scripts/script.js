@@ -4,6 +4,7 @@ var muted = false;
 var songList = [
 	[new Audio('audio/test/song_this.mp3'), "This Will Be", "Natalie Cole", "Inseperable", "images/test/album_inseperable.jpg"],
 	[new Audio('audio/test/song_blue.mp3'), "Blue Christmas", "Elvis Presly", "Blue Christmas", "images/test/album_blue.jpg"],
+	[new Audio('audio/test/song_wantforchristmas.mp3'), "All I Want For Christmas", "Mariah Carey", "Merry Christmas", "images/test/album_wantforchristmas.jpg"],
 	[new Audio('audio/test/song_aint.mp3'), "Aint That A Kick In The Head", "Dean Martin", "The Capitol Years", "images/test/album_capitol.jpg"]
 ];
 
