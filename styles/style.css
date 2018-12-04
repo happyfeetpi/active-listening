@@ -65,7 +65,7 @@ h1 {
 }
 
 .song-full > img {
-	margin-right: 20px
+	margin-right: 10px;
 	width: 100px;
 	height: 100px;
 }
@@ -137,9 +137,32 @@ h1 {
 }
 
 #statistic {
-	font-size: 2em;
 	width: 100%;
 	align-content: center;
 	color: rgb(0,188,212);
-	padding-left: 40px
+}
+
+#statistic-day {
+	width: 100%;
+	font-size: 2em;
+	margin: 10px;
+	text-align: center;
+}
+
+#statistic-month {
+	width: 100%;
+	font-size: 1.5em;
+	margin: 10px;
+	text-align: center;
+}
+
+#statistic-year {
+	width: 100%;
+	font-size: 1em;
+	margin: 10px;
+	text-align: center;
+}
+
+ul > li:first-child {
+	background-color: rgb(0,188,212);
 }
