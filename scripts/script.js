@@ -5,16 +5,16 @@ var songList = [
 	[new Audio('audio/test/song_this.mp3'), "This Will Be", "Natalie Cole", "Inseperable", "images/test/album_inseperable.jpg"],
 	[new Audio('audio/test/song_blue.mp3'), "Blue Christmas", "Elvis Presly", "Blue Christmas", "images/test/album_blue.jpg"],
 	[new Audio('audio/test/song_sicko.mp3'), "Sicko Mode", "Travis Scoot ft. Drake", "Astroworld", "images/test/album_sicko.jpg"],
-	[new Audio('audio/test/song_giveyou.mp3'), "Never Gona Give You Up", "Rick Roll", "Whenever You Need Somebody", "images/test/album_giveyou.jpg"],
+	[new Audio('audio/test/song_giveyou.mp3'), "Never Gona Give You Up", "Rick Astley", "Whenever You Need Somebody", "images/test/album_giveyou.jpg"],
 	[new Audio('audio/test/song_wander.mp3'), "Wanderlust", "The Weeknd", "Kiss Land", "images/test/album_wander.jpg"],
 	[new Audio('audio/test/song_wantforchristmas.mp3'), "All I Want For Christmas", "Mariah Carey", "Merry Christmas", "images/test/album_wantforchristmas.jpg"],
 	[new Audio('audio/test/song_aint.mp3'), "Aint That A Kick In The Head", "Dean Martin", "The Capitol Years", "images/test/album_capitol.jpg"]
 ];
 var statisticList = [
-	["Day: 6 minutes", "Month: 2 hours", "Year: 55 hours"],
-	["Day: 2 songs", "Month: 37 songs", "Year: 1045 songs"],
-	["Day: 0 songs", "Month: 3 songs", "Year: 72 songs"],
-	["Day: 4 hours", "Month: 45 hours", "Year: 1034 hours"]
+	["Today: 6 minutes", "This Month: 2 hours", "This Year: 55 hours"],
+	["Today: 2 songs", "This Month: 37 songs", "This Year: 1045 songs"],
+	["Today: 0 songs", "This Month: 3 songs", "This Year: 72 songs"],
+	["Today: 4 hours", "This Month: 45 hours", "This Year: 1034 hours"]
 ];
 
 function playPause() {
