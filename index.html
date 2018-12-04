@@ -23,6 +23,13 @@
 						<li id="statistic-selector-3" onclick="changeStatistic('3')">Hours Idle</li>
 					</ul>
 				</nav>
+
+				<div id="statistic">	
+					<div id="statistic-day">Day: 6 minutes</div>
+					<div id="statistic-month">Month: 2 hours</div>
+					<div id="statistic-year">Year: 55 hours</div>
+				</div>
+
 			</div>
 
 			<div id="popular">
@@ -75,32 +82,26 @@
 
 		<div id="song-player">
 
-			<div id="song-slider"></div>
-
-			<div id="song-player-main">
-
-				<div id="song-player-info" class="song-full">				
-					<img id="current-song-album-cover" class="album-cover" src="images/test/album_inseperable.jpg">
-					<div>
-						<div id="current-song-title" class="song-title">This Will Be (An Everlasting Love)</div>
-						<div id="current-song-artist" class="song-artist">Natlie Cole</div>
-						<div id="current-song-album" class="song-album">Inseperable</div>
-					</div>
+			<div id="song-player-info" class="song-full">				
+				<img id="current-song-album-cover" class="album-cover" src="images/test/album_inseperable.jpg">
+				<div>
+					<div id="current-song-title" class="song-title">This Will Be (An Everlasting Love)</div>
+					<div id="current-song-artist" class="song-artist">Natlie Cole</div>
+					<div id="current-song-album" class="song-album">Inseperable</div>
 				</div>
-
-				<div id="song-commands">
-					<img src="images/last.svg" onclick="lastTrack()">
-					<img id="play-pause" src="images/play.svg" onclick="playPause()">
-					<img src="images/next.svg" onclick="nextTrack()">
-				</div>
-
-				<div id="song-player-options">
-					<img id="mute" src="images/volume_mid.svg" onclick="changeMute()"> 
-					<input onchange="changeVolume()" type="range" min="0" max="100" value="50" id="volume-slider">
-				</div>
-				
 			</div>
-			
+
+			<div id="song-commands">
+				<img src="images/last.svg" onclick="lastTrack()">
+				<img id="play-pause" src="images/play.svg" onclick="playPause()">
+				<img src="images/next.svg" onclick="nextTrack()">
+			</div>
+
+			<div id="song-player-options">
+				<img id="mute" src="images/volume_mid.svg" onclick="changeMute()"> 
+				<input onchange="changeVolume()" type="range" min="0" max="100" value="50" id="volume-slider">
+			</div>
+
 		</div>
 
 	</body>
